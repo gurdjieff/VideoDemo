@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		505B4BBB211F6EBB00CB2136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BBA211F6EBB00CB2136 /* AppDelegate.m */; };
-		505B4BBE211F6EBB00CB2136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BBD211F6EBB00CB2136 /* ViewController.m */; };
 		505B4BC1211F6EBB00CB2136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505B4BBF211F6EBB00CB2136 /* Main.storyboard */; };
 		505B4BC3211F6EBC00CB2136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505B4BC2211F6EBC00CB2136 /* Assets.xcassets */; };
 		505B4BC6211F6EBC00CB2136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505B4BC4211F6EBC00CB2136 /* LaunchScreen.storyboard */; };
 		505B4BC9211F6EBD00CB2136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BC8211F6EBD00CB2136 /* main.m */; };
 		505B4BD3211F6EBD00CB2136 /* TubiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BD2211F6EBD00CB2136 /* TubiDemoTests.m */; };
 		505B4BDE211F6EBD00CB2136 /* TubiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BDD211F6EBD00CB2136 /* TubiDemoUITests.m */; };
+		505B4BF1211F71E600CB2136 /* WebApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BF0211F71E600CB2136 /* WebApi.m */; };
+		505B4BF4211F743E00CB2136 /* General.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BF3211F743E00CB2136 /* General.m */; };
+		505B4BF7211F7B3500CB2136 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BF6211F7B3500CB2136 /* VideoModel.m */; };
+		505B4BFB211FBDCA00CB2136 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B4BF9211FBDCA00CB2136 /* VideoListViewController.swift */; };
+		505B4BFC211FBDCA00CB2136 /* VideoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505B4BFA211FBDCA00CB2136 /* VideoListViewController.xib */; };
+		505B4C03211FD4CB00CB2136 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B4C01211FD4CB00CB2136 /* CollectionViewCell.swift */; };
+		505B4C04211FD4CB00CB2136 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505B4C02211FD4CB00CB2136 /* CollectionViewCell.xib */; };
+		88A8FDAB86617A54F02CD9B0 /* libPods-TubiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F56E5F45E6C80EDCC125F2B8 /* libPods-TubiDemo.a */; };
+		8D22276E89274A36B5CD5B60 /* libPods-TubiDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 001057F76EB5898BD18B76E5 /* libPods-TubiDemoTests.a */; };
+		B031C4C0922B3083626FD831 /* libPods-TubiDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E453055417E0D10EC599F /* libPods-TubiDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001057F76EB5898BD18B76E5 /* libPods-TubiDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TubiDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAA23CE0F2E532BE9E51DC3 /* Pods-TubiDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemoTests/Pods-TubiDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		187E453055417E0D10EC599F /* libPods-TubiDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TubiDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		505B4BB6211F6EBB00CB2136 /* TubiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TubiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505B4BB9211F6EBB00CB2136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		505B4BBA211F6EBB00CB2136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		505B4BBC211F6EBB00CB2136 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		505B4BBD211F6EBB00CB2136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		505B4BC0211F6EBB00CB2136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		505B4BC2211F6EBC00CB2136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505B4BC5211F6EBC00CB2136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,23 @@
 		505B4BD9211F6EBD00CB2136 /* TubiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TubiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505B4BDD211F6EBD00CB2136 /* TubiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TubiDemoUITests.m; sourceTree = "<group>"; };
 		505B4BDF211F6EBD00CB2136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505B4BEF211F71E600CB2136 /* WebApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebApi.h; sourceTree = "<group>"; };
+		505B4BF0211F71E600CB2136 /* WebApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebApi.m; sourceTree = "<group>"; };
+		505B4BF2211F743E00CB2136 /* General.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		505B4BF3211F743E00CB2136 /* General.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = General.m; sourceTree = "<group>"; };
+		505B4BF5211F7B3500CB2136 /* VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		505B4BF6211F7B3500CB2136 /* VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		505B4BF8211FBDCA00CB2136 /* TubiDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TubiDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		505B4BF9211FBDCA00CB2136 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		505B4BFA211FBDCA00CB2136 /* VideoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListViewController.xib; sourceTree = "<group>"; };
+		505B4C01211FD4CB00CB2136 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		505B4C02211FD4CB00CB2136 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		70BF6BAB0E73A972EE6C32B9 /* Pods-TubiDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemoUITests/Pods-TubiDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9CF32BC49C5421DA42D0403 /* Pods-TubiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemo/Pods-TubiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C1E723F040AE8C956788D52A /* Pods-TubiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemo/Pods-TubiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C189E52E72549D20AC9F3D /* Pods-TubiDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemoTests/Pods-TubiDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA1DD5E24E62A0BC3AA16B92 /* Pods-TubiDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemoUITests/Pods-TubiDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F56E5F45E6C80EDCC125F2B8 /* libPods-TubiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TubiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A8FDAB86617A54F02CD9B0 /* libPods-TubiDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D22276E89274A36B5CD5B60 /* libPods-TubiDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +101,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B031C4C0922B3083626FD831 /* libPods-TubiDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E571FC7CA0F2037A7ABC14D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F56E5F45E6C80EDCC125F2B8 /* libPods-TubiDemo.a */,
+				001057F76EB5898BD18B76E5 /* libPods-TubiDemoTests.a */,
+				187E453055417E0D10EC599F /* libPods-TubiDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		505B4BAD211F6EBB00CB2136 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				505B4BD1211F6EBD00CB2136 /* TubiDemoTests */,
 				505B4BDC211F6EBD00CB2136 /* TubiDemoUITests */,
 				505B4BB7211F6EBB00CB2136 /* Products */,
+				EA6837CA61642C7EF3C7D481 /* Pods */,
+				1E571FC7CA0F2037A7ABC14D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +143,22 @@
 		505B4BB8211F6EBB00CB2136 /* TubiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				505B4BEE211F71C600CB2136 /* Controllers */,
+				505B4BEC211F71C600CB2136 /* Models */,
+				505B4BED211F71C600CB2136 /* NetWork */,
+				505B4BEB211F71C600CB2136 /* Views */,
 				505B4BB9211F6EBB00CB2136 /* AppDelegate.h */,
 				505B4BBA211F6EBB00CB2136 /* AppDelegate.m */,
-				505B4BBC211F6EBB00CB2136 /* ViewController.h */,
-				505B4BBD211F6EBB00CB2136 /* ViewController.m */,
+				505B4BF9211FBDCA00CB2136 /* VideoListViewController.swift */,
+				505B4BFA211FBDCA00CB2136 /* VideoListViewController.xib */,
+				505B4BF2211F743E00CB2136 /* General.h */,
+				505B4BF3211F743E00CB2136 /* General.m */,
 				505B4BBF211F6EBB00CB2136 /* Main.storyboard */,
 				505B4BC2211F6EBC00CB2136 /* Assets.xcassets */,
 				505B4BC4211F6EBC00CB2136 /* LaunchScreen.storyboard */,
 				505B4BC7211F6EBC00CB2136 /* Info.plist */,
 				505B4BC8211F6EBD00CB2136 /* main.m */,
+				505B4BF8211FBDCA00CB2136 /* TubiDemo-Bridging-Header.h */,
 			);
 			path = TubiDemo;
 			sourceTree = "<group>";
@@ -132,6 +181,53 @@
 			path = TubiDemoUITests;
 			sourceTree = "<group>";
 		};
+		505B4BEB211F71C600CB2136 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				505B4C01211FD4CB00CB2136 /* CollectionViewCell.swift */,
+				505B4C02211FD4CB00CB2136 /* CollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		505B4BEC211F71C600CB2136 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				505B4BF5211F7B3500CB2136 /* VideoModel.h */,
+				505B4BF6211F7B3500CB2136 /* VideoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		505B4BED211F71C600CB2136 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				505B4BEF211F71E600CB2136 /* WebApi.h */,
+				505B4BF0211F71E600CB2136 /* WebApi.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		505B4BEE211F71C600CB2136 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA6837CA61642C7EF3C7D481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E723F040AE8C956788D52A /* Pods-TubiDemo.debug.xcconfig */,
+				B9CF32BC49C5421DA42D0403 /* Pods-TubiDemo.release.xcconfig */,
+				0AAA23CE0F2E532BE9E51DC3 /* Pods-TubiDemoTests.debug.xcconfig */,
+				D3C189E52E72549D20AC9F3D /* Pods-TubiDemoTests.release.xcconfig */,
+				70BF6BAB0E73A972EE6C32B9 /* Pods-TubiDemoUITests.debug.xcconfig */,
+				DA1DD5E24E62A0BC3AA16B92 /* Pods-TubiDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 505B4BE2211F6EBD00CB2136 /* Build configuration list for PBXNativeTarget "TubiDemo" */;
 			buildPhases = (
+				C9E8F3C3EA13A34FD8C2DF9F /* [CP] Check Pods Manifest.lock */,
 				505B4BB2211F6EBB00CB2136 /* Sources */,
 				505B4BB3211F6EBB00CB2136 /* Frameworks */,
 				505B4BB4211F6EBB00CB2136 /* Resources */,
+				19835AD8CD69545832B84EAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 505B4BE5211F6EBD00CB2136 /* Build configuration list for PBXNativeTarget "TubiDemoTests" */;
 			buildPhases = (
+				43FED120AC0DFD9815591AEF /* [CP] Check Pods Manifest.lock */,
 				505B4BCA211F6EBD00CB2136 /* Sources */,
 				505B4BCB211F6EBD00CB2136 /* Frameworks */,
 				505B4BCC211F6EBD00CB2136 /* Resources */,
@@ -174,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 505B4BE8211F6EBD00CB2136 /* Build configuration list for PBXNativeTarget "TubiDemoUITests" */;
 			buildPhases = (
+				DDF4780A7ED7DFE9BBB2FD38 /* [CP] Check Pods Manifest.lock */,
 				505B4BD5211F6EBD00CB2136 /* Sources */,
 				505B4BD6211F6EBD00CB2136 /* Frameworks */,
 				505B4BD7211F6EBD00CB2136 /* Resources */,
@@ -199,6 +299,7 @@
 				TargetAttributes = {
 					505B4BB5211F6EBB00CB2136 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					505B4BCD211F6EBD00CB2136 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -236,7 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				505B4BC6211F6EBC00CB2136 /* LaunchScreen.storyboard in Resources */,
+				505B4C04211FD4CB00CB2136 /* CollectionViewCell.xib in Resources */,
 				505B4BC3211F6EBC00CB2136 /* Assets.xcassets in Resources */,
+				505B4BFC211FBDCA00CB2136 /* VideoListViewController.xib in Resources */,
 				505B4BC1211F6EBB00CB2136 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +360,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19835AD8CD69545832B84EAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TubiDemo/Pods-TubiDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TubiDemo/Pods-TubiDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FED120AC0DFD9815591AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TubiDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E8F3C3EA13A34FD8C2DF9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TubiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF4780A7ED7DFE9BBB2FD38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TubiDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		505B4BB2211F6EBB00CB2136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505B4BBE211F6EBB00CB2136 /* ViewController.m in Sources */,
+				505B4BFB211FBDCA00CB2136 /* VideoListViewController.swift in Sources */,
 				505B4BC9211F6EBD00CB2136 /* main.m in Sources */,
+				505B4C03211FD4CB00CB2136 /* CollectionViewCell.swift in Sources */,
+				505B4BF4211F743E00CB2136 /* General.m in Sources */,
 				505B4BBB211F6EBB00CB2136 /* AppDelegate.m in Sources */,
+				505B4BF1211F71E600CB2136 /* WebApi.m in Sources */,
+				505B4BF7211F7B3500CB2136 /* VideoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +613,10 @@
 		};
 		505B4BE3211F6EBD00CB2136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E723F040AE8C956788D52A /* Pods-TubiDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TubiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,14 +625,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = daiyuzhang.TubiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TubiDemo/TubiDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		505B4BE4211F6EBD00CB2136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CF32BC49C5421DA42D0403 /* Pods-TubiDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TubiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,13 +646,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = daiyuzhang.TubiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TubiDemo/TubiDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		505B4BE6211F6EBD00CB2136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAA23CE0F2E532BE9E51DC3 /* Pods-TubiDemoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TubiDemoTests/Info.plist;
@@ -481,7 +674,9 @@
 		};
 		505B4BE7211F6EBD00CB2136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C189E52E72549D20AC9F3D /* Pods-TubiDemoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TubiDemoTests/Info.plist;
@@ -499,7 +694,9 @@
 		};
 		505B4BE9211F6EBD00CB2136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BF6BAB0E73A972EE6C32B9 /* Pods-TubiDemoUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TubiDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,7 +713,9 @@
 		};
 		505B4BEA211F6EBD00CB2136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1DD5E24E62A0BC3AA16B92 /* Pods-TubiDemoUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TubiDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
