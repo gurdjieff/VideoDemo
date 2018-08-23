@@ -75,16 +75,21 @@ class VideoListViewController: UIViewController, UICollectionViewDelegate, UICol
         cell.configureCell(videos[indexPath.row])        
         return cell
     }
-    
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let player = AVPlayer(url: URL(string: videos[indexPath.row].videoUrl)!)
-        let vc = AVPlayerViewController()
-        vc.player = player
-        
-        present(vc, animated: true) {
-            vc.player?.play()
-        }
+        let flowLayout = UICollectionViewFlowLayout()
+        flowLayout.scrollDirection = .horizontal
+        let vc = DetailCollectionViewController(collectionViewLayout: flowLayout)
+        vc.index = indexPath.row
+        vc.videList = videos
+        self.navigationController?.pushViewController(vc, animated: true)
+//        let player = AVPlayer(url: URL(string: videos[indexPath.row].videoUrl)!)
+//        let vc = AVPlayerViewController()
+//        vc.player = player
+//
+//        present(vc, animated: true) {
+//            vc.player?.play()
+//        }
     }
     
     func filterContentForSearchText(_ searchText: String) {

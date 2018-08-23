@@ -4,4 +4,5 @@
 #import "WebApi.h"
 #import "General.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "DetailCollectionViewController.h"
 

@@ -21,6 +21,12 @@
 		505B4BFC211FBDCA00CB2136 /* VideoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505B4BFA211FBDCA00CB2136 /* VideoListViewController.xib */; };
 		505B4C03211FD4CB00CB2136 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B4C01211FD4CB00CB2136 /* CollectionViewCell.swift */; };
 		505B4C04211FD4CB00CB2136 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505B4C02211FD4CB00CB2136 /* CollectionViewCell.xib */; };
+		50AA3978212F433A004EE745 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA3976212F433A004EE745 /* DetailCell.m */; };
+		50AA3979212F433A004EE745 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA3977212F433A004EE745 /* DetailCell.xib */; };
+		50AA397D212F45EB004EE745 /* DetailCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA397B212F45EB004EE745 /* DetailCollectionViewController.m */; };
+		50AA397E212F45EB004EE745 /* DetailCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA397C212F45EB004EE745 /* DetailCollectionViewController.xib */; };
+		50AA3982212F620B004EE745 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA3980212F620B004EE745 /* DetailViewController.m */; };
+		50AA3983212F620B004EE745 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA3981212F620B004EE745 /* DetailViewController.xib */; };
 		88A8FDAB86617A54F02CD9B0 /* libPods-TubiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F56E5F45E6C80EDCC125F2B8 /* libPods-TubiDemo.a */; };
 		8D22276E89274A36B5CD5B60 /* libPods-TubiDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 001057F76EB5898BD18B76E5 /* libPods-TubiDemoTests.a */; };
 		B031C4C0922B3083626FD831 /* libPods-TubiDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187E453055417E0D10EC599F /* libPods-TubiDemoUITests.a */; };
@@ -72,6 +78,15 @@
 		505B4BFA211FBDCA00CB2136 /* VideoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListViewController.xib; sourceTree = "<group>"; };
 		505B4C01211FD4CB00CB2136 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		505B4C02211FD4CB00CB2136 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		50AA3975212F433A004EE745 /* DetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		50AA3976212F433A004EE745 /* DetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		50AA3977212F433A004EE745 /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		50AA397A212F45EB004EE745 /* DetailCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailCollectionViewController.h; sourceTree = "<group>"; };
+		50AA397B212F45EB004EE745 /* DetailCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailCollectionViewController.m; sourceTree = "<group>"; };
+		50AA397C212F45EB004EE745 /* DetailCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCollectionViewController.xib; sourceTree = "<group>"; };
+		50AA397F212F620B004EE745 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		50AA3980212F620B004EE745 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		50AA3981212F620B004EE745 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		70BF6BAB0E73A972EE6C32B9 /* Pods-TubiDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemoUITests/Pods-TubiDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9CF32BC49C5421DA42D0403 /* Pods-TubiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemo/Pods-TubiDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C1E723F040AE8C956788D52A /* Pods-TubiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TubiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TubiDemo/Pods-TubiDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +165,12 @@
 				505B4BB9211F6EBB00CB2136 /* AppDelegate.h */,
 				505B4BBA211F6EBB00CB2136 /* AppDelegate.m */,
 				505B4BF9211FBDCA00CB2136 /* VideoListViewController.swift */,
+				50AA397A212F45EB004EE745 /* DetailCollectionViewController.h */,
+				50AA397F212F620B004EE745 /* DetailViewController.h */,
+				50AA3980212F620B004EE745 /* DetailViewController.m */,
+				50AA3981212F620B004EE745 /* DetailViewController.xib */,
+				50AA397B212F45EB004EE745 /* DetailCollectionViewController.m */,
+				50AA397C212F45EB004EE745 /* DetailCollectionViewController.xib */,
 				505B4BFA211FBDCA00CB2136 /* VideoListViewController.xib */,
 				505B4BF2211F743E00CB2136 /* General.h */,
 				505B4BF3211F743E00CB2136 /* General.m */,
@@ -186,6 +207,9 @@
 			children = (
 				505B4C01211FD4CB00CB2136 /* CollectionViewCell.swift */,
 				505B4C02211FD4CB00CB2136 /* CollectionViewCell.xib */,
+				50AA3975212F433A004EE745 /* DetailCell.h */,
+				50AA3976212F433A004EE745 /* DetailCell.m */,
+				50AA3977212F433A004EE745 /* DetailCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -338,9 +362,12 @@
 			files = (
 				505B4BC6211F6EBC00CB2136 /* LaunchScreen.storyboard in Resources */,
 				505B4C04211FD4CB00CB2136 /* CollectionViewCell.xib in Resources */,
+				50AA3979212F433A004EE745 /* DetailCell.xib in Resources */,
+				50AA3983212F620B004EE745 /* DetailViewController.xib in Resources */,
 				505B4BC3211F6EBC00CB2136 /* Assets.xcassets in Resources */,
 				505B4BFC211FBDCA00CB2136 /* VideoListViewController.xib in Resources */,
 				505B4BC1211F6EBB00CB2136 /* Main.storyboard in Resources */,
+				50AA397E212F45EB004EE745 /* DetailCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +469,14 @@
 			files = (
 				505B4BFB211FBDCA00CB2136 /* VideoListViewController.swift in Sources */,
 				505B4BC9211F6EBD00CB2136 /* main.m in Sources */,
+				50AA3978212F433A004EE745 /* DetailCell.m in Sources */,
 				505B4C03211FD4CB00CB2136 /* CollectionViewCell.swift in Sources */,
 				505B4BF4211F743E00CB2136 /* General.m in Sources */,
+				50AA3982212F620B004EE745 /* DetailViewController.m in Sources */,
 				505B4BBB211F6EBB00CB2136 /* AppDelegate.m in Sources */,
 				505B4BF1211F71E600CB2136 /* WebApi.m in Sources */,
 				505B4BF7211F7B3500CB2136 /* VideoModel.m in Sources */,
+				50AA397D212F45EB004EE745 /* DetailCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
