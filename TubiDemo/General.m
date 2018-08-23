@@ -27,6 +27,4 @@
     return @"QI4YKHLDQTPD";
 }
 
-//QI4YKHLDQTPD
-
 @end

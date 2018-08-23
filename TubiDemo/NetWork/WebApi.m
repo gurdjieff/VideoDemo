@@ -14,10 +14,12 @@ static NSString *path = @"v1/search";
 
 @implementation WebApi
 
-+ (void) getVideosWithcompletion:(WebApiCompletion) completion {
++ (void) getVideosWithcompletionWIthCatetory:(NSString *)category completion:(WebApiCompletion) completion {
     NSURL *URL = [NSURL URLWithString:[General baseUrl]];
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:URL];
-    NSDictionary *param = @{@"key":[General endPointKey]};
+    NSDictionary *dic = @{@"key":[General endPointKey]};
+    NSMutableDictionary *param = [NSMutableDictionary dictionaryWithDictionary:dic];
+    param[@"q"] = category;
     [manager GET: path parameters:param progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSError *error = nil;
         if ([responseObject isKindOfClass:[NSDictionary class]]
@@ -26,6 +28,7 @@ static NSString *path = @"v1/search";
             NSMutableArray *result = [NSMutableArray array];
             if ([medias isKindOfClass:[NSArray class]]) {
                 for (NSDictionary *dic in medias) {
+                    
                     VideoModel *model = [[VideoModel alloc] initWithVideoUrl:dic[@"media"][0][@"mp4"][@"url"]
                                                                  preImageUrl:dic[@"media"][0][@"mp4"][@"preview"]
                                                                        title:dic[@"title"]

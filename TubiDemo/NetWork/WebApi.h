@@ -18,6 +18,6 @@ typedef void(^WebApiCompletion)(NSArray<VideoModel *> * array, WebApiState state
 
 @interface WebApi : NSObject
 
-+ (void) getVideosWithcompletion:(WebApiCompletion) completion;
++ (void) getVideosWithcompletionWIthCatetory:(NSString *)catory completion:(WebApiCompletion) completion;
 
 @end

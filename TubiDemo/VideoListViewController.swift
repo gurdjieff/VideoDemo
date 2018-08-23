@@ -26,7 +26,7 @@ class VideoListViewController: UIViewController, UICollectionViewDelegate, UICol
         registerCell()
         addSearchController()
         videos = [VideoModel]();
-        loadVides()
+        loadVides("")
     }
     
     func configureCollectionView() {
@@ -47,8 +47,8 @@ class VideoListViewController: UIViewController, UICollectionViewDelegate, UICol
         self.collectionView!.register(UINib(nibName: reuseIdentifier, bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
     }
     
-    func loadVides() {
-        WebApi.getVideosWithcompletion { (videos, state, error) in
+    func loadVides(_ text: String) {
+        WebApi.getVideosWithcompletionWIthCatetory(text) { (videos, state, error) in
             if state == .SUCCEEDED {
                 self.videos = videos
                 self.responseResult = videos
@@ -56,6 +56,7 @@ class VideoListViewController: UIViewController, UICollectionViewDelegate, UICol
             }
         }
     }
+
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -74,6 +75,7 @@ class VideoListViewController: UIViewController, UICollectionViewDelegate, UICol
         cell.configureCell(videos[indexPath.row])        
         return cell
     }
+    
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let player = AVPlayer(url: URL(string: videos[indexPath.row].videoUrl)!)
@@ -113,14 +115,17 @@ class VideoListViewController: UIViewController, UICollectionViewDelegate, UICol
 extension VideoListViewController {
     @objc
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
-        let h = General.screenWidth() / videos[indexPath.row].width * videos[indexPath.row].height
-        return CGSize(width: General.screenWidth(), height: h)
+        let width = 200.0;
+        let h = videos[indexPath.row].height / (videos[indexPath.row].width / width)
+        return CGSize(width: width, height: h)
     }
 }
+
+
 
 extension VideoListViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
-        filterContentForSearchText(searchBar.text!)
+        loadVides(searchBar.text!)
     }
 }
